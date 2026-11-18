@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+
+# Variables de entorno y BD locales
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+prisma/*.db
+prisma/*.db-journal
+
+# Logs y sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
